@@ -5386,3 +5386,20 @@ INFO:root:log my final result []
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "POST /review HTTP/1.1" 200 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:172.18.0.2 - - [11/Feb/2023 17:49:39] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.18.0.8:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:172.18.0.2 - - [13/Jul/2023 02:09:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [13/Jul/2023 02:09:03] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [13/Jul/2023 02:09:03] "GET /static/css/style.css HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [13/Jul/2023 02:09:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:log my final result [{'Product': 'jbl', 'Name': 'Anuj Kunwor', 'Rating': '5', 'CommentHead': 'Worth every penny', 'Comment': 'Jbl provides audio sound quality'}, {'Product': 'jbl', 'Name': 'Amal Narayanan', 'Rating': '5', 'CommentHead': 'Best in the market!', 'Comment': 'It is one of the best items in jbl, with excellent sound clarity and battery backup. Adjusting the equalizer on the music player will make the bass look better, and the waterproofing enhances its quality.'}, {'Product': 'jbl', 'Name': 'Harsh Kumar', 'Rating': '5', 'CommentHead': 'Great product', 'Comment': 'Nice 🙂 👍'}, {'Product': 'jbl', 'Name': 'Rintu Sarkar', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Osm sound'}, {'Product': 'jbl', 'Name': 'Askarali Nadaf', 'Rating': '4', 'CommentHead': 'Wonderful', 'Comment': 'Nice quality..'}, {'Product': 'jbl', 'Name': 'Sagarika Mohanty ', 'Rating': '5', 'CommentHead': 'Highly recommended', 'Comment': 'Fantastic'}, {'Product': 'jbl', 'Name': 'Prasad  Jadhav ', 'Rating': '4', 'CommentHead': 'Nice product', 'Comment': "I Don't Doubt JBL.At this Price this is genuinely best. (In the pic is tennis ball for size comparison)The Flip Essential is perfect for small room to a medium size living room.I won't Recommend for Outdoors as it is small and Obviously Speaker Diaphragm is small (can't push the diaphragm beyond its limits)But if the environment is quiet And you want background Music ,the Flip essential does it.(I wouldn't recommend playing any music in NATURE Areas , let the birds be) The Sound - com..."}, {'Product': 'jbl', 'Name': 'Anuj Kumar', 'Rating': '4', 'CommentHead': 'Very Good', 'Comment': 'Amazing bass and clear sound. Easy to pair with Mobile and Laptops. Two subwoofers produce enough bass and makes it amazing portable speaker.'}, {'Product': 'jbl', 'Name': 'Pritam Poddar', 'Rating': '5', 'CommentHead': 'Awesome', 'Comment': 'Too good 😊5/5'}, {'Product': 'jbl', 'Name': 'Flipkart Customer', 'Rating': '3', 'CommentHead': 'Decent product', 'Comment': 'its a great speaker but the problem is we all think its better than flip 3 but its not, flip 3 has mike and can connect to another smart connect enabled device .. essential cant be connected with another device and dont have mike to accept calls.. the speaker is a good one but lacks featuers of flip 3'}, {'Product': 'jbl', 'Name': 'Flipkart Customer', 'Rating': 'No Rating', 'CommentHead': 'No Comment Heading', 'Comment': 'its a great speaker but the problem is we all think its better than flip 3 but its not, flip 3 has mike and can connect to another smart connect enabled device .. essential cant be connected with another device and dont have mike to accept calls.. the speaker is a good one but lacks featuers of flip 3'}]
+INFO:werkzeug:172.18.0.2 - - [13/Jul/2023 02:09:14] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:172.18.0.2 - - [13/Jul/2023 02:09:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:172.18.0.2 - - [13/Jul/2023 02:09:14] "[33mGET /style.css HTTP/1.1[0m" 404 -
